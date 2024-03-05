@@ -6,17 +6,74 @@
     <link rel="icon" type="img/png" href="gambar/icon.png" sizes="16x16" />
 </head>
 <body>
+    <h3>Uji Coba 1</h3>>
     <label for="username">type "text" :</label><br>
     <input type="text" id="username" name="username"><br>
     <label for="pwd">type "password"</label><br>
     <input type="password" id="pwd" name="pwd"><br>
-
+    <p>Kesimpulanya Input dengan tipe "text" digunakan untuk memasukkan teks biasa seperti nama pengguna atau alamat email. Input dengan tipe "password" digunakan untuk memasukkan kata sandi atau password, yang akan disembunyikan saat diketik untuk menjaga keamanan data pengguna.</p>
     <br>
     <hr>
     <h3>Uji Coba 2</h3>
-    <input type="radio" id="html" value="HTML"> <label for="html">HTML</label><br>
-    <input type="radio" id="css" value="CSS"> <label for="css">CSS</label><br>
+    <input type="radio" id="html" name="ProgrammingLanguage" value="HTML"> <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="css" value="CSS"> <label for="css">CSS</label><br>
     <input type="radio" id="javascript" value="JavaScript"> <label for="javascript">JavaScript</label><br>
-   <p>Kesimpulanya Pada percobaan 1, jenis form yang digunakan adalah input teks (type="text") dan input sandi (type="password"), sedangkan pada percobaan 2, jenis form yang digunakan adalah input radio (type="radio").</p>
-</body>
-</html>
+   <p>Kesimpulanya pada uji coba 1 dan 2 yaitu menggunakan tipe form yang berbeda yaitu text dan radio. pada percobaan kedua apabila atribut name nya sama maka akan menghasilkan opsi form yang ibaratnya menjadi satu kelompok karena ada kesamaan, sehingga hanya pilihan dengan atribut name yangsama lah yang bisa dipilih. sedangkan jika atribut namanya berbeda semua, maka semua bisa dipilih tanpa kecuali. </p>
+    <hr>
+    <h3>Uji Coba 3</h3>
+    <input type="checkbox" id="id1" name="ProgrammingLanguage" value="Bike">
+    <label for="id1"> I have a bike</label><br>
+    <input type="checkbox" id="id2" name="ProgrammingLanguage" value="Car">
+    <label for="id2"> I have a car</label><br>
+    <input type="checkbox" id="id3" name="telo" value="Boat">
+    <label for="id3"> I have a boat</label>
+    <p>kesimpulan karena form pada uji coba 3 menghasilkan formcheckbox, maka perbedaan pada name di atribut sama sekali tidak mempengaruhi pilihan.</p>
+    <hr>
+    <hr>
+    <h3>uji coba 4 </h3>
+    <label for="favcolor"> pilih warna dengan type="color": </label>
+    <input type="color" id="favcolor" name="favcolor"><br>
+    <label for="b"> pilih tanggal dengan type="date": </label>
+    <input type="date" id="b" name="tanggal"><br>
+    <input type="button" onclick="alert('Hello Word!')" value="Click Me!"><br>
+    <p>Kesimpulanya Input dengan tipe "color" memungkinkan pengguna memilih warna menggunakan kontrol warna yang disediakan oleh browser. Input dengan tipe "date" memungkinkan pengguna memilih tanggal menggunakan kalender yang disediakan oleh browser. Tombol klik dengan tipe "button" memicu sebuah pesan alert saat diklik. </p>
+    <h3>Uji Coba 5</h3>
+    <label for="birthdaytime">input dengan  type datetime-local:</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+    <label for="birthdaymonth">input dengan type datetime-local:</label>
+    <input type="month" id="bdaymonth" name="bdaymonth"><br>
+    <label for="email">input dengan type datetime-local:</label>
+    <input type="email" id="email" name="email"><br>
+    <p>Kesimpulanya, Uji Coba 4 menunjukkan penggunaan tipe input yang berbeda-beda. Pertama, kita memiliki input dengan tipe datetime-local, yang memungkinkan pengguna memilih tanggal dan waktu dari antarmuka kalender dan jam yang disediakan oleh browser. Kemudian, ada input dengan tipe month, yang memungkinkan pengguna memilih bulan dan tahun dari kalender. Terakhir, ada input dengan tipe email, yang akan memvalidasi masukan pengguna untuk memastikan bahwa nilai yang dimasukkan sesuai dengan format alamat email yang benar.</p>
+    <hr>
+    <h3>Uji Coba 6</h3>
+    <input type="image" src="gambar/icon.png" alt="submit" width="48" height="48"><br>
+    <label for="myfile"> pilih file:</label>
+    <input type="file" id="myfile" name="myfile"><br>
+    <input type="hidden" id="custId" name="custId" value="3487"><br>
+    <p>kesimpulanya input tipe image untuk menampilkan gambar pada laman web,input tipe file untuk memungkinkan user mengunggah file,input tipe hidden tidak ditampilkan pada halaman web tetapi dapat digunakan untuk menyimpan data secara tersembunyi</p>
+    <hr>
+    <h3>Uji Coba 7</h3>
+    <label for="quantity"> Quantity (between 1 and 5): </label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10"><br>
+    <label for="vol"> volume (between 0 and 50): </label>
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>
+    <p>kesimpulanya input dengan tipe "number" untuk membuat usermampu memasukkan angka dalam rentang tertentu, dalam hal ini antara 1 dan 5. Input dengan tipe "range" memungkinkan user memilih nilai dalam rentang tertentu dengan menggunakan slider, dalam hal ini antara 0 dan 50. Kedua jenis input ini berguna untuk membatasi masukan pengguna ke dalam rentang yang diinginkan, </p>
+    <hr>
+    <h3>Uji Coba 8</h3>
+    <label for="homepage">add you homepage:</label>
+    <input type="url" id="homepage" name="homepage"><br>
+    <label for="gsearch"> Search Google: </label>
+    <input type="search" id="gsearch" name="gsearch"><br>
+    <label for="ph"> enter your phone number: </label>
+    <input type="tel" id="ph" name="phone" pattern="[0-9]{3} - [0-9]{2} - [0-9]{3}"><br>
+    <p>Kesimpulanya Input dengan tipe "url" digunakan untuk memasukkan URL, yang memungkinkan browser melakukan validasi URL saat pengguna memasukkan nilai. Input dengan tipe "search" digunakan untuk memasukkan teks untuk pencarian, dan dapat menampilkan kontrol pencarian bawaan pada browser. Input dengan tipe "tel" digunakan untuk memasukkan nomor telepon, dengan pola tertentu yang didefinisikan oleh atribut "pattern". </p>
+    <hr>
+    <h3>Uji Coba 9</h3>
+    <label for="appt"> Select a time:</label>
+    <input type="time" id="appt" name="appt"><br>
+    <label for="week"> Select a week:</label>
+    <input type="week" id="week" name="week"><br>
+    <p>Kesimpulanya  Input dengan tipe "time" memungkinkan pengguna memilih waktu dengan menggunakan kontrol jam yang disediakan oleh browser. Input dengan tipe "week" memungkinkan pengguna memilih minggu dalam satu tahun menggunakan kontrol kalender yang disediakan oleh browser.</p>
+    </body>
+    </html>
